@@ -1,19 +1,15 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Main from './components/Main';
-
 //redux
 import { Provider } from 'react-redux';
 import store from './store'
+import AppRouter from './routes/AppRouter';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-    <Router>
-      <Provider store={store}>
-        <Switch>
-          <Route exact path="/" component={Main} />
-        </Switch>
-      </Provider>
-    </Router>
+    <Provider store={store}>
+      <AppRouter/>
+    </Provider>
 
   );
 }
