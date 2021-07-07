@@ -1,14 +1,18 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { authLogin } from "../actions/AuthActions";
 import "../assets/styles/botones.css";
 import "../assets/styles/loginAndRegister.css";
 import {isFormValidLogIn} from '../helpers/isFormValid'
 
 
 const LogInScreen = () => {
+
+  const dispatch = useDispatch();
   const [usuario, guardarUsuario] = useState({
-    email: "",
-    password: "",
+    email: "admin@admin.com",
+    password: "123456",
   });
   const { email, password } = usuario;
 
@@ -23,10 +27,11 @@ const LogInScreen = () => {
     e.preventDefault();
     // validar
     if (isFormValidLogIn(email, password)) {
-        console.log("inicia sesion el usuario y se manda el dispatch");
-      }
-    //pasarlo al action dispatch
-  };
+        console.log("inicia sesion el usuario y se manda el dispatch") 
+      //pasarlo al action dispatch
+      dispatch(authLogin(usuario))
+    };
+  }
   return (
     <div className="form-usuario">
       <div className="contenedor-form sombra-dark">
