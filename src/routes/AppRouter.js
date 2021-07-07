@@ -1,19 +1,37 @@
 import React from 'react';
 import {
     BrowserRouter as Router,
-    Switch, Route
+    Switch
   } from "react-router-dom";
+import PublicScreenRouter from './PublicScreenRouter';
+import UserScreenRouter from './UserScreenRouter';
 
-import LogInScreen from '../screens/LogInScreen';
-import RegisterScreen from '../screens/RegisterScreen'
+import PublicRoute from './PublicRoute';
+import PrivateRoute from './PrivateRoute';
+import { useSelector } from 'react-redux';
 
 const AppRouter = () => {
+
+
+  const {logged} = useSelector(state => state.Auth.user)
+
+ 
   return (
   <Router>
-    <Switch>
-      <Route exact path="/login" component={LogInScreen} /> 
-      <Route exact path="/register" component={RegisterScreen} /> 
-    </Switch>
+    <div >
+      <Switch>
+        <PublicRoute
+          path="/"
+          component={PublicScreenRouter}
+          isAuthenticated={logged}
+        />
+        <PrivateRoute
+          path="/admin"
+          component={UserScreenRouter}
+          isAuthenticated={logged}
+        />
+      </Switch>
+    </div>
   </Router>
   );
 };
