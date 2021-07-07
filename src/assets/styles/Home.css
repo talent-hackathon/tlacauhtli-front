@@ -1,0 +1,58 @@
+.background-image {
+	background-image: url("https://www.obioorganico.com/wp-content/uploads/2021/02/artesano-madera.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: AntonioLight;
+}
+.background-image:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.background-image .containerBackground {
+	position: relative;
+}
+.imgLogo {
+	height: 15%;
+	width: 15%;
+}
+.h1Obio {
+	font-size: 6vw;
+}
+.containerSBIO {
+	font-size: 2.3vw;
+	font-weight: 300;
+}
+.background-image .btnBuyNow {
+	font-size: 1.3vw;
+	padding: 0.5% 2%;
+	background-color: var(--logoBio);
+	border: var(--logoBio);
+	border-radius: 4px;
+	letter-spacing: .1rem;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+}
+.background-image .btnBuyNow:hover {
+	-webkit-box-shadow: none;
+	color: #000;
+	background: #fff;
+	letter-spacing: .18rem;
+	-webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.4);
+	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.4);
+}
+#txtLink {
+	color: var(--Blanco);
+	font-size: 1vw;
+}
+.footerBIO {
+	height: 50%;
+	background-color: var(--negro);
+}

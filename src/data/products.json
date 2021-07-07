@@ -1,0 +1,158 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Miel de abeja floración Campanita Apiflor",
+      "price": 164.19,
+      "stock": 10,
+      "promotion": true,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/miel-de-abeja-floracion-campanita-frasco-350ml-1-600x800.png",
+      "place": "Chiapas",
+      "description": "",
+      "type": "Miel"
+    },
+    {
+      "id": 1,
+      "name": "Café Organico tostado y molido Golden Cloud",
+      "price": 127.65,
+      "stock": 1,
+      "promotion": false,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/golden_cloud_cafe_organico_tostado_y_molido_500g_1-600x800.png",
+      "place": "Oaxaca",
+      "description": "",
+      "type": "Café"
+    },
+    {
+      "id": 2,
+      "name": "Rana artesanía de madera Capulín",
+      "price": 305.97,
+      "stock": 9,
+      "promotion": true,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/rana-artesania-de-madera-1-600x800.png",
+      "place": "305.97",
+      "description": "",
+      "type": "Artesanía"
+    },
+    {
+      "id": 3,
+      "name": "Café orgánico tostado y molido Kotantik",
+      "price": 134.22,
+      "stock": 3,
+      "promotion": false,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/kotantik_cafe_organico_tostado_y_molido_500g_1-600x800.png",
+      "place": "Oaxaca",
+      "description": "",
+      "type": "Artesanía"
+    },
+    {
+      "id": 4,
+      "name": "Café Organico tostado y molido Tosepan",
+      "price": 121.25,
+      "stock": 23,
+      "promotion": false,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/tosepan-cafe-organico-tostado-y-molido-1-600x800.png",
+      "place": "Oaxaca",
+      "description": "",
+      "type": "Café"
+    },
+    {
+      "id": 5,
+      "name": "Café Organico tostado y molido Biocafé",
+      "price": 114.12,
+      "stock": 10,
+      "promotion": false,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/biocafe_cafe_organico_tostado_y_molido_500g_1-600x800.png",
+      "place": "Oaxaca",
+      "description": "",
+      "type": "Café"
+    },
+    {
+      "id": 6,
+      "name": "Venado artesanía de madera Capulín",
+      "price": 305.97,
+      "stock": 19,
+      "promotion": true,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/venado-artesania-de-madera-1-600x800.png",
+      "place": "Oaxaca",
+      "description": "",
+      "type": "Artesanía"
+    },
+    {
+      "id": 7,
+      "name": "Chocolate miel con cacao untable La Iguana Sana",
+      "price": 126.52,
+      "stock": 1,
+      "promotion": false,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/la_iguana_sana_chocolate_untable_1-600x800.png",
+      "place": "Chiapas",
+      "description": "",
+      "type": "Cacao"
+    },
+    {
+      "id": 8,
+      "name": "Rana artesanía de madera Capulín",
+      "price": 305.97,
+      "stock": 9,
+      "promotion": true,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/rana-artesania-de-madera-1-600x800.png",
+      "place": "305.97",
+      "description": "",
+      "type": "Artesanía"
+    },
+    {
+      "id": 9,
+      "name": "Alcoholatura de toronjil Pajti",
+      "price": 92.85,
+      "stock": 37,
+      "promotion": true,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/alcoholatura-de-toronjil-1-600x800.png",
+      "place": "Puebla",
+      "description": "",
+      "type": "Herbolaria"
+    },
+    {
+      "id": 10,
+      "name": "Miel de abeja Melipona Tosepan",
+      "price": 238.76,
+      "stock": 46,
+      "promotion": false,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/tosepan-miel-de-abeja-melipona-1-600x800.png",
+      "place": "Puebla",
+      "description": "",
+      "type": "Miel"
+    },
+    {
+      "id": 11,
+      "name": "Café Organico tostado y molido Golden Cloud",
+      "price": 127.65,
+      "stock": 1,
+      "promotion": true,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/golden_cloud_cafe_organico_tostado_y_molido_500g_1-600x800.png",
+      "place": "Oaxaca",
+      "description": "",
+      "type": "Café"
+    },
+    {
+      "id": 12,
+      "name": "Café orgánico tostado y molido Kotantik",
+      "price": 134.22,
+      "stock": 3,
+      "promotion": false,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/kotantik_cafe_organico_tostado_y_molido_500g_1-600x800.png",
+      "place": "Oaxaca",
+      "description": "",
+      "type": "Artesanía"
+    },
+    {
+      "id": 13,
+      "name": "Chocolate miel con cacao untable La Iguana Sana",
+      "price": 126.52,
+      "stock": 1,
+      "promotion": true,
+      "image": "https://www.obioorganico.com/wp-content/uploads/2021/06/la_iguana_sana_chocolate_untable_1-600x800.png",
+      "place": "Chiapas",
+      "description": "",
+      "type": "Cacao"
+    }
+  ]
+}
